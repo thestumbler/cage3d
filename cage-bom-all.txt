@@ -1,0 +1,84 @@
+BOM	panel.side.left	500	700	460	700
+BOM	ex2020	460	0.1748
+BOM	ex2020	460	0.1748
+BOM	ex2020	700	0.266
+BOM	ex2020	700	0.266
+BOM	corner	5
+BOM	corner	5
+BOM	corner	5
+BOM	corner	5
+BOM	glass.side.left	470	670	0.3149	2280	3.93625
+BOM	panel.side.right.noglass	500	700	460	700
+BOM	ex2020	460	0.1748
+BOM	ex2020	460	0.1748
+BOM	ex2020	700	0.266
+BOM	ex2020	700	0.266
+BOM	ex2020.standalone	560	0.2128
+BOM	ex2020.standalone	560	0.2128
+BOM	corner.standalone	5
+BOM	corner.standalone	5
+BOM	corner.standalone	5
+BOM	corner.standalone	5
+BOM	ex2020.standalone	560	0.2128
+BOM	ex2020.standalone	560	0.2128
+BOM	corner.standalone	5
+BOM	corner.standalone	5
+BOM	corner.standalone	5
+BOM	corner.standalone	5
+BOM	glass.back.standalone	570	670	0.3819	2480	4.77375
+BOM	corner.standalone	5
+BOM	corner.standalone	5
+BOM	corner.standalone	5
+BOM	corner.standalone	5
+BOM	panel.side.door	450	650	410	650
+BOM	ex2020	410	0.1558
+BOM	ex2020	410	0.1558
+BOM	ex2020	650	0.247
+BOM	ex2020	650	0.247
+BOM	corner	5
+BOM	corner	5
+BOM	corner	5
+BOM	corner	5
+BOM	hinge	4
+BOM	hinge	4
+BOM	hinge	4
+BOM	glass.side.door	420	620	0.2604	2080	3.255
+BOM	panel.front.door.left	270	650	230	650
+BOM	ex2020	230	0.0874
+BOM	ex2020	230	0.0874
+BOM	ex2020	650	0.247
+BOM	ex2020	650	0.247
+BOM	corner	5
+BOM	corner	5
+BOM	corner	5
+BOM	corner	5
+BOM	hinge	4
+BOM	hinge	4
+BOM	hinge	4
+BOM	glass.front.door.left	240	620	0.1488	1720	1.86
+BOM	panel.front.door.right	270	650	230	650
+BOM	ex2020	230	0.0874
+BOM	ex2020	230	0.0874
+BOM	ex2020	650	0.247
+BOM	ex2020	650	0.247
+BOM	corner	5
+BOM	corner	5
+BOM	corner	5
+BOM	corner	5
+BOM	hinge	4
+BOM	hinge	4
+BOM	hinge	4
+BOM	glass.front.door.right	240	620	0.1488	1720	1.86
+BOM	panel.top.door	600	500	560	500
+BOM	ex2020	560	0.2128
+BOM	ex2020	560	0.2128
+BOM	ex2020	500	0.19
+BOM	ex2020	500	0.19
+BOM	corner	5
+BOM	corner	5
+BOM	corner	5
+BOM	corner	5
+BOM	glass.top.door	570	470	0.2679	2080	3.34875
+BOM	hinge	4
+BOM	hinge	4
+BOM	hinge	4

@@ -1,0 +1,16 @@
+**/*.o
+**/*.obj
+**/a.out
+**/*.exe
+
+**/junk*
+**/.DS_Store
+tags
+
+**/playground/**
+
+bin/**
+build/**
+data/**
+
+!.gitkeep
