@@ -17,7 +17,7 @@ ANSI_1252
   9
 $AUTHOR
   1
-Chris Lott
+The Stumbler
   9
 $LASTSAVEDBY
   1
@@ -501,19 +501,19 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2459093.658061076
+2459095.393214977
   9
 $TDUUPDATE
  40
-2459093.283061076
+2459095.018214977
   9
 $TDINDWG
  40
-0.1627121181
+0.1627121296
   9
 $TDUSRTIMER
  40
-0.0106761574
+0.0015358102
   9
 $USRTIMER
  70
@@ -1361,9 +1361,9 @@ AcDbViewportTableRecord
  21
 1.0
  12
-1485.0
+500.7947343632563
  22
-1050.0
+557.5829090605428
  13
 0.0
  23
@@ -1389,7 +1389,7 @@ AcDbViewportTableRecord
  37
 0.0
  40
-2142.0
+1096.704
  41
 2.171189979123173
  42
@@ -3066,8 +3066,6 @@ EN_ISO_TitleBlock_bylayer
 0
 102
 {BLKREFS
-331
-311C
 331
 3141
 102
@@ -23945,13 +23943,13 @@ AcDbMText
   3
 {NOTES:\P\P(1) The -XXX and -YYY options specify the finished size of the panel in mm.  This drawing describes two ways to form a panel, depending on how the extrusions are overlapped. Example shown in this drawing is 700 x 440 mm.\P\P(2) The first d
   3
-imension (-XXX) is the length of the "long" side, that is, the side whose length equals the corresponding panel dimension. \P\P(3) The extrusion sides corresponding to the second panel dimension (-YYY) are shortened by 2 x extrusion width, or YYY - 4
+imension (-XXX) is the length of the "long" side, that is, the side whose extrusion length equals the corresponding panel dimension. \P\P(3) The extrusion sides corresponding to the second panel dimension (-YYY) are shortened by 2 x extrusion width, 
   3
-0mm.\P\P(4) Glass panel has rounded corners, R=10mm, edges chamfered approx. 1mm, thickness 5mm, and clear color.\P\P(5) Glass size is XXX-10 mm by YYY-10 mm, rectangular.\P\P(6) Glass permiter is 2*XXX + 2*YYY - 40 mm.\P\P(7) Options can describe se
+or YYY - 40mm.\P\P(4) Glass panel has rounded corners, R=10mm, edges chamfered approx. 1mm, thickness 5mm, is tempered, and clear color.\P\P(5) Glass size is XXX-30 mm by YYY-30 mm, rectangular.\P\P(6) Glass permiter is 2*XXX + 2*YYY - 40 mm.\P\P(7) 
   3
-nsible assemblies\P     -FG  is a complete panel frame with glass and gasket\P     -F   is a panel frame with no glass.\P\P(8) Some combinations of options can describe pseudo-assemblies:\P     -G   just a glass panel with some gasket material\P     
+Options can describe sensible assemblies\P     -FG  is a complete panel frame with glass and gasket\P     -F   is a panel frame with no glass.\P\P(8) Some combinations of options can describe pseudo-assemblies:\P     -G   just a glass panel with some
   1
--000-000  just a set of corners and hardware\P     -000-YYY-F  two extrusions YYY-40 mm long, with corners & HW\P     -XXX-000-F  two extrusions XXX mm long with corners & HW}
+ gasket material\P     -000-000  just a set of corners and hardware\P     -000-YYY-F  two extrusions YYY-40 mm long, with corners & HW\P     -XXX-000-F  two extrusions XXX mm long with corners & HW}
   7
 TABLETEXT
  73

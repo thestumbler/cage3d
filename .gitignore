@@ -2,6 +2,7 @@
 **/*.obj
 **/a.out
 **/*.exe
+*.bak
 
 **/junk*
 **/.DS_Store
