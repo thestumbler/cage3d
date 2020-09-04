@@ -5,19 +5,63 @@ use <./uses/customizable_aluminium_extrusion_plate_brackets.scad>
 use <./uses/alpha/alpha.scad>
 
 
-// These control the presentation
-// They have to be manually changed, I think.
+// These control the presentation, these variables have to be set.
+// They have to be manually changed?
+//
+// type of view: [ $t, animate, explode_me, label_me ]
+function get_tbucks(a) = a[0];
+function get_animate(a) = a[1];
+function get_explode_me(a) = a[2];
+function get_label_me(a) = a[3];
 
-animate = 0;
-$t=1;
-explode_me = 0;
-label_me = 0;
+// view point:   [ $vpr, $vpd, $vpt ]
+function get_vpr(a) = a[0];
+function get_vpd(a) = a[1];
+function get_vpt(a) = a[2];
 
+
+// some pre-defined view types
+view_exploded =                  [ 1, 0, 1, 0 ];
+view_exploded_assy_lines =       [ 0, 0, 1, 0 ];
+view_exploded_labels =           [ 0, 0, 1, 1 ];
+view_normal =                    [ 1, 0, 0, 0 ];
+
+
+// some pre-defined views
 iso1 = 45.0;
 iso2 = 90.0 - asin(1.0/sqrt(3.0));
-$vpr = [iso2,0,iso1]; // rotation
-$vpd = 8000; // camera distance
-$vpt = [0,250,250]; // translation
+view_iso = [ [iso2,0,iso1], 8000, [0,250,250] ];
+
+
+//========================================================================
+// Select view type and view point
+//========================================================================
+
+// 1. Select view point
+view_point = view_iso;
+
+// 2. Select view type
+view_type = view_exploded_assy_lines;
+//view_type = view_exploded;
+//view_type = view_exploded_labels;
+//view_type = view_normal;
+
+// 3. Select optional drawing features
+draw_axes = false;
+draw_dimensions = false;
+draw_iso_grids = false;
+draw_ghost = true;
+
+//----------------------------------------
+// Apply the view type and view point
+$t = get_tbucks(view_type);
+animate = get_animate(view_type);
+explode_me = get_explode_me(view_type);
+label_me = get_label_me(view_type);
+
+$vpr = get_vpr(view_point); // rotation
+$vpd = get_vpd(view_point); // camera distance
+$vpt = get_vpt(view_point); // translation
 
 
 //========================================================================
@@ -296,7 +340,7 @@ module make_panel_assy_line_bottom( size, length, delta, dash, dia, stagger ) {
   gap = 5;
   fudge_len = length-ex2020.x-2*gap;
   if(abs(length) > 1) {
-    echo("assy line", length);
+    //echo("assy line", length);
     color(assy_line_color) {
       translate([0,0,ex2020.x]) {
         translate([0, 0, stagger.y])
@@ -891,10 +935,11 @@ module iso_grid(size=6000, spacing=100, dia=2.5) {
 // Finally, 900 lines later, let's draw something
 //========================================================================
 
-*axis(1000,1000,1000,10);
-*make_dimensions();
-*iso_grid();
-make_ghost( cage );
+if(draw_axes) axis(1000,1000,1000,10);
+if(draw_dimensions) make_dimensions();
+if(draw_iso_grids) iso_grid();
+if(draw_ghost) make_ghost( cage );
+
 explode_cage();
 
 // various testing turds
