@@ -57,3 +57,5 @@ We have to separate our recycling here in South Korea
 
 ![Assembly hardwware](pics/frame-assy-hardware.jpg)
 ![Hex nut dimensions](pics/hex-nut-dimensions.jpg)
+![Glass panels assembled](pics/glass-panels-all-built.jpg)
+
