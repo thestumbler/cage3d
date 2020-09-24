@@ -25,6 +25,7 @@ view_exploded =                  [ 1, 0, 1, 0 ];
 view_exploded_assy_lines =       [ 0, 0, 1, 0 ];
 view_exploded_labels =           [ 0, 0, 1, 1 ];
 view_normal =                    [ 1, 0, 0, 0 ];
+view_animated =                  [ 0, 1, 1, 0 ];
 
 
 // some pre-defined views
@@ -36,15 +37,18 @@ view_iso = [ [iso2,0,iso1], 8000, [0,250,250] ];
 //========================================================================
 // Select view type and view point
 //========================================================================
+// There's an issue with animation, which I can't solve without editing
+// these input more than I had hoped for...
 
 // 1. Select view point
 view_point = view_iso;
 
 // 2. Select view type
-view_type = view_exploded_assy_lines;
+// view_type = view_exploded_assy_lines;
 //view_type = view_exploded;
-//view_type = view_exploded_labels;
+view_type = view_exploded_labels;
 //view_type = view_normal;
+//view_type = view_animated;
 
 // 3. Select optional drawing features
 draw_axes = false;
@@ -54,7 +58,7 @@ draw_ghost = true;
 
 //----------------------------------------
 // Apply the view type and view point
-$t = get_tbucks(view_type);
+//$t = get_tbucks(view_type);
 animate = get_animate(view_type);
 explode_me = get_explode_me(view_type);
 label_me = get_label_me(view_type);

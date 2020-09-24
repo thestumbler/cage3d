@@ -1,3 +1,76 @@
+# Calling it Done
+_24-Sep-2020_
+
+Belatedly wrapping this up.  There are still small tweaks I'd like to do
+here and there, but that will never stop.  Updated drawings, pictures,
+and provided assembly instructions.
+
+
+# Almost Complete
+_17-Sep-2020_
+
+Typhoon spared my local town.  Been busy with other things, but finally
+got the bulk of the cage assembled.
+
+
+# Design Details Updated, Video Soon
+_07-Sep-2020_
+Added some design details to the repo.  Been working on an exploded view
+render from OpenSCAD.  Should have it ready tomorrow.  Work and a
+nearby typhoon delayed final assembly of the cage another day or two -
+that's life.
+
+# Panels a Plenty
+_05-Sep-2020_
+
+Built up all the glass panels today.
+
+![Glass Panels are Assembled](pics/glass-panels-assembled.jpg)
+
+I'll begin the final assembly tomorrow.
+
+Also updated the repository with a final assembly drawing and made a few
+BOM corrections.
+
+
+# A $30 Typo
+_01-Sep-2020_
+
+As I started to assemble the first panel tonight, I found yet another
+mistake.  I ordered two of the larger panels incorrectly. In this case,
+it was an error when I rolled up the various Parts Lists into a
+to-purchase BOMs.  It was an extremely unlucky typo - neither of the two
+panes were the correct size. 
+
+Ordered:
+* 2 ea 640 x 470 mm panes
+
+Needed:
+* 1 ea 670 x 470
+* 1 ea 670 x 570
+
+I will plow ahead building what I can, new panes on order, should arrive
+before Friday if I'm lucky.  Repo updated with revised BOM.
+
+
+# Project Repository Goes Live
+_01-Sep-2020_
+
+Did some cleanup of the files and organization, pushed a project
+repository on GitHub.  This repository includes some more photos (I
+think I've maxed out the gallery space on Hackaday.io), the OpenSCAD
+files, and a 2D CAD drawing ( DWG, DXF, and PDF) of the panel.  The
+panels form the basic building blocks of the design.
+
+Yet to do, documentation-wise:
+
+* complete and upload the final assembly drawing
+* notes and comments on the design
+* explanation of some of the OpenSCAD craziness
+
+As for the enclosure, the remaining six rails of the correct length will
+arrive today. I will start assembling everything tonight.  I should have
+it assembled and running by the weekend, knock on wood.
 
 
 # Incoming Inspection

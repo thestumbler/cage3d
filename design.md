@@ -110,7 +110,6 @@ containing the basic information needed on the "real" BOM.  Things like:
 
 TBD
 
-
 ## Tools
 
 I tried to use open-source tools in the development of this project, but
