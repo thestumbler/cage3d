@@ -62,11 +62,12 @@ encouraged to proceed.
 
 ## See also:
 
-* [Installation notes ](install.md) very basic, needs more info
-* [Gallery of pictures](gallery.md) basically an index into the pictures directory
-* [Vendors used](vendors.md) useless list of vendors and links, unless you live in South Korea
+* [Assembly instructions](assembly.md) guide on assembling the cage
+* [Installation notes ](install.md) how to install the code, too basic
+* [Gallery of pictures](gallery.md) an index into the pictures directory with some organization
+* [Vendors used](vendors.md) list of vendors and links, useless unless you live in South Korea
 * [Build log](build-log.md)
-* [Design details](details.md)
+* [Design details](design.md)
 * Datasheets directory (needs a few more datasheets)
 
 ## Design files:
